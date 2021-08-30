@@ -55,7 +55,7 @@ public class CoffeeMakerTest {
 	public void setUp() throws RecipeException {
 		coffeeMaker = new CoffeeMaker();
 		
-		//Set up for r1
+		//Set up for r1.
 		recipe1 = new Recipe();
 		recipe1.setName("Coffee");
 		recipe1.setAmtChocolate("0");
