@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="def833fa-c0b9-4409-9fd1-55890baf34c9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/ncsu/csc326/coffeemaker/CoffeeMakerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/ncsu/csc326/coffeemaker/CoffeeMakerTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="def833fa-c0b9-4409-9fd1-55890baf34c9" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +24,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -83,7 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1630256197442</updated>
       <workItem from="1630256199932" duration="1170000" />
-      <workItem from="1630309921630" duration="961000" />
+      <workItem from="1630309921630" duration="1336000" />
     </task>
     <servers />
   </component>
