@@ -8,15 +8,14 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.3.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.3.1/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.3.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.3.1/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/edu/ncsu/csc326/coffeemaker/CoffeeMakerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/edu/ncsu/csc326/coffeemaker/CoffeeMakerTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/edu.ncsu.csc326.coffeemaker.CoffeeMakerTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/edu.ncsu.csc326.coffeemaker.CoffeeMakerTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/edu.ncsu.csc326.coffeemaker.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/edu.ncsu.csc326.coffeemaker.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-edu.ncsu.csc326.coffeemaker.CoffeeMakerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-edu.ncsu.csc326.coffeemaker.CoffeeMakerTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/ncsu/csc326/coffeemaker/CoffeeMakerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/ncsu/csc326/coffeemaker/CoffeeMakerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,26 +55,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
-  <component name="RunManager" selected="Gradle.CoffeeMakerTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.ncsu.csc326.coffeemaker.Main" />
-      <module name="CoffeeMaker_JUnit_Assign.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.ncsu.csc326.coffeemaker.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CoffeeMakerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.CoffeeMakerTest.testAddAllZero">
+    <configuration name="CoffeeMakerTest.testAddAllZero" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;edu.ncsu.csc326.coffeemaker.CoffeeMakerTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;edu.ncsu.csc326.coffeemaker.CoffeeMakerTest.testAddAllZero&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -90,12 +76,72 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CoffeeMakerTest.testMakeCoffee" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CoffeeMakerTest.testAddChocolat1e" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;edu.ncsu.csc326.coffeemaker.CoffeeMakerTest.testMakeCoffee&quot;" />
+        <option name="scriptParameters" value="--tests &quot;edu.ncsu.csc326.coffeemaker.CoffeeMakerTest.testAddChocolat1e&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CoffeeMakerTest.testAddChocolate2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;edu.ncsu.csc326.coffeemaker.CoffeeMakerTest.testAddChocolate2&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CoffeeMakerTest.testAddSugar1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;edu.ncsu.csc326.coffeemaker.CoffeeMakerTest.testAddSugar1&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CoffeeMakerTest.testAddSugar2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;edu.ncsu.csc326.coffeemaker.CoffeeMakerTest.testAddSugar2&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -112,9 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CoffeeMakerTest" />
-        <item itemvalue="Gradle.CoffeeMakerTest.testMakeCoffee" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Gradle.CoffeeMakerTest.testAddAllZero" />
+        <item itemvalue="Gradle.CoffeeMakerTest.testAddChocolate2" />
+        <item itemvalue="Gradle.CoffeeMakerTest.testAddChocolat1e" />
+        <item itemvalue="Gradle.CoffeeMakerTest.testAddSugar2" />
+        <item itemvalue="Gradle.CoffeeMakerTest.testAddSugar1" />
       </list>
     </recent_temporary>
   </component>
@@ -130,6 +178,8 @@
       <updated>1630256197442</updated>
       <workItem from="1630256199932" duration="1170000" />
       <workItem from="1630309921630" duration="1336000" />
+      <workItem from="1630375334295" duration="1470000" />
+      <workItem from="1630402892141" duration="3718000" />
     </task>
     <servers />
   </component>
@@ -137,30 +187,45 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="221" key="FileChooserDialogImpl" timestamp="1630310170982">
+    <state x="740" y="221" key="FileChooserDialogImpl" timestamp="1630402875541">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="221" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1630310170982" />
-    <state width="1860" height="281" key="GridCell.Tab.0.bottom" timestamp="1630357517679">
+    <state x="740" y="221" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1630402875541" />
+    <state width="1860" height="281" key="GridCell.Tab.0.bottom" timestamp="1630416843092">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="281" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1630357517679" />
-    <state width="1860" height="281" key="GridCell.Tab.0.center" timestamp="1630357517678">
+    <state width="1860" height="281" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1630416843092" />
+    <state width="1860" height="281" key="GridCell.Tab.0.center" timestamp="1630416843092">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="281" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1630357517678" />
-    <state width="1860" height="281" key="GridCell.Tab.0.left" timestamp="1630357517678">
+    <state width="1860" height="281" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1630416843092" />
+    <state width="1860" height="281" key="GridCell.Tab.0.left" timestamp="1630416843092">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="281" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1630357517678" />
-    <state width="1860" height="281" key="GridCell.Tab.0.right" timestamp="1630357517679">
+    <state width="1860" height="281" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1630416843092" />
+    <state width="1860" height="281" key="GridCell.Tab.0.right" timestamp="1630416843092">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="281" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1630357517679" />
+    <state width="1860" height="281" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1630416843092" />
     <state x="625" y="219" key="NewModule_or_Project.wizard" timestamp="1630310172553">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="625" y="219" key="NewModule_or_Project.wizard/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1630310172553" />
+    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1630416723123">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="229" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1630416723123" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/edu/ncsu/csc326/coffeemaker/CoffeeMakerTest.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="simpleUML.UMLToolWindowPlugin">
     <General>
