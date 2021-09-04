@@ -43,6 +43,7 @@ public class CoffeeMakerTest {
 	private Recipe recipe2;
 	private Recipe recipe3;
 	private Recipe recipe4;
+	private Recipe recipe5;
 
 	/**
 	 * Initializes some recipes to test with and the {@link CoffeeMaker}
@@ -90,6 +91,15 @@ public class CoffeeMakerTest {
 		recipe4.setAmtMilk("1");
 		recipe4.setAmtSugar("1");
 		recipe4.setPrice("65");
+
+		//Set up for r5
+		recipe5 = new Recipe();
+		recipe5.setName("Big Chocolate");
+		recipe5.setAmtChocolate("100");
+		recipe5.setAmtCoffee("100");
+		recipe5.setAmtMilk("100");
+		recipe5.setAmtSugar("100");
+		recipe5.setPrice("65");
 	}
 
 	/**
@@ -377,5 +387,15 @@ public class CoffeeMakerTest {
 	@Test()
 	public void testAddAllZero() throws InventoryException{
 		coffeeMaker.addInventory("0","0","0","0");
+	}
+
+	/**
+	 * Given a coffee maker 1 recipe, that the coffeemaker dont have enough ingredients so it should
+	 * return back the chance as the input.
+	 */
+	@Test()
+	public void testIngredientsNotEnough() {
+		coffeeMaker.addRecipe(recipe5);
+		assertEquals(1000, coffeeMaker.makeCoffee(0, 1000));
 	}
 }
